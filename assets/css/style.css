@@ -3,7 +3,7 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	background-image: url("./../images/concrete_seamless.png");
-	
+	margin-bottom: 100px;
 }
 
 h1, h2, h3{
@@ -79,9 +79,27 @@ span {
 	padding: 30px;
 }
 
-.sidebar-img {
-	max-width: 60px;
+.portfolio-image {
+	position: relative;
+	margin-bottom: 30px;
 }
+
+.portfolio-image img {
+	width: 100%;
+}
+
+.image-label {
+	color: #ffffff;
+	background-color: #03aba0;
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 15px 0 15px 0;
+	left: 0;
+}
+
 
 .footer p {
 	margin: 0;
