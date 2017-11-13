@@ -113,3 +113,26 @@ span {
 	border-top-color: #03aba0;
 	border-bottom-color: #000000;
 }
+
+@media screen and (max-width: 992px) {
+	#headshot {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	#headshot {
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	#headshot {
+		width: 100%;
+	}
+
+}
