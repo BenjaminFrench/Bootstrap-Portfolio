@@ -12,13 +12,8 @@ h1, h2, h3{
 }
 
 h1 {
-	color: #03aba0;
+	color: #ffffff;
 	font-size: 2em;
-	padding: 0 0 30px 0;
-	border-style: solid;
-	border-color: #cccccc;
-	border-width: 0 0 3px 0;
-	margin: 0 0 25px 0;
 }
 
 h2 {
@@ -69,6 +64,11 @@ span {
 .navbar-static-top {
 	background-color: #ffffff;
 	min-height: 90px;
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	margin-left: 0px;
 }
 
  a.navbar-brand  {
@@ -90,8 +90,14 @@ ul.navbar-right {
 }
 
 #top-nav-container {
-	/* padding-top: 20px; */
-	/* padding-bottom: 20px; */
+    background-color: #ffffff;
+    /* height: 90px; */
+    margin-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	min-height: 90px;
+	max-height: 100%;
+
 }
 
 #headshot {
