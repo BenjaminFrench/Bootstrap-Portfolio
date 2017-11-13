@@ -73,7 +73,7 @@ span {
 
  a.navbar-brand  {
 	color: #ffffff!important;
-	background-color: #03aba0;
+	background-color: #03aba0!important;
 	height: 90px;
 	line-height: 90px;
 	padding: 0 15px;
@@ -165,6 +165,11 @@ ul.navbar-right {
 	}
 	ul.navbar-right {
 		margin-top: 0px;
+	}
+	h1 {
+		color: #ffffff;
+		font-size: 1.25em;
+		margin-top: 30px;
 	}
 	/* .navbar-nav > li > a {
 		padding-top: 31.5px;
