@@ -1,4 +1,3 @@
-/* set all fonts first then style individual fonts for elements */
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -151,7 +150,7 @@ ul.navbar-right {
 
 @media screen and (max-width: 992px) {
 	#headshot {
-		width: 100%;
+		width: 50%;
 		max-width: 100%;
 		margin-bottom: 20px;
 	}
@@ -171,11 +170,6 @@ ul.navbar-right {
 		font-size: 1.25em;
 		margin-top: 30px;
 	}
-	/* .navbar-nav > li > a {
-		padding-top: 31.5px;
-		padding-bottom: 31.5px;
-		line-height: 27px;
-	} */
 
 }
 
