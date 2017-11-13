@@ -3,7 +3,7 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	background-image: url("./../images/concrete_seamless.png");
-	margin-bottom: 100px;
+	margin-bottom: 120px;
 }
 
 h1, h2, h3{
@@ -67,7 +67,31 @@ span {
 }
 
 .navbar-static-top {
-	margin-bottom: 40px;
+	background-color: #ffffff;
+	min-height: 90px;
+}
+
+ a.navbar-brand  {
+	color: #ffffff!important;
+	background-color: #03aba0;
+	height: 90px;
+	line-height: 90px;
+	padding: 0 15px;
+}
+
+.navbar-toggle {
+	margin-top: 28px;
+	padding: 9px 10px !important;
+}
+
+
+ul.navbar-right {
+	margin-top: 20px;
+}
+
+#top-nav-container {
+	/* padding-top: 20px; */
+	/* padding-bottom: 20px; */
 }
 
 #headshot {
@@ -120,13 +144,22 @@ span {
 		max-width: 100%;
 		margin-bottom: 20px;
 	}
+	
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	#headshot {
 		width: 50%;
 	}
+	ul.navbar-right {
+		margin-top: 0px;
+	}
+	/* .navbar-nav > li > a {
+		padding-top: 31.5px;
+		padding-bottom: 31.5px;
+		line-height: 27px;
+	} */
 
 }
 
